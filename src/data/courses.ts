@@ -44,7 +44,7 @@ export const TEST_SYSTEM_POINTS = [
 
 export const FACULTY_LEAD = {
   name: 'Dr. Anshuman Agarwal Sir',
-  image: '/assets/aistudio/Dr_ansh-2_d2975b31.png',
+  image: `${import.meta.env.BASE_URL}assets/aistudio/Dr_ansh-2_d2975b31.png`,
   credentials: [
     'MBBS, MD, FIPM',
     'NEET AIR 196',
