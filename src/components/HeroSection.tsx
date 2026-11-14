@@ -92,7 +92,8 @@ export function HeroSection({
 
               <div className="flex flex-col justify-center sm:col-span-8">
                 <h2 className="font-display text-xl font-bold text-slate-900 sm:text-2xl">
-                  Faculty Lead: {FACULTY_LEAD.name}
+                  Faculty Lead:{' '}
+                  <span className="whitespace-nowrap">Dr. Anshuman Agarwal</span> Sir
                 </h2>
                 <ul className="mt-4 space-y-2 border-t border-slate-200 pt-3.5">
                   {FACULTY_LEAD.credentials.map((cred) => (

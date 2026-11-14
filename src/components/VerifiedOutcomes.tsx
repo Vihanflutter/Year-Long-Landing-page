@@ -89,8 +89,8 @@ export function VerifiedOutcomes() {
     <section id="outcomes" className="border-b border-slate-200 bg-white py-16 lg:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
-          <h2 className="font-display text-3xl font-bold tracking-tight text-slate-900 [text-wrap:balance]">
-            Mentored by Dr. Anshuman Agarwal Sir. Placed in India&apos;s top medical colleges
+          <h2 className="font-display text-2xl font-bold tracking-tight text-slate-900 [text-wrap:balance] sm:text-3xl">
+            Mentored by <span className="whitespace-nowrap">Dr. Anshuman Agarwal</span> Sir. Placed in India&apos;s top medical colleges
           </h2>
         </div>
       </div>
