@@ -3,39 +3,25 @@ import { STUDENT_ACHIEVERS, type StudentAchiever } from '../data/courses';
 import zainabAliImg from '../assets/images/zainab_ali_1794562248702.jpg';
 import apurvaGuptaImg from '../assets/images/apurva_gupta_1794562249084.jpg';
 import vibhanshuShrimaliImg from '../assets/images/vibhanshu_shrimali_1794562248191.jpg';
-import kevlinNirwanImg from '../assets/images/kevlin_nirwan_1794562249129.jpg';
-import surajSharmaImg from '../assets/images/suraj_sharma_1794562250728.jpg';
-import adityaSinghImg from '../assets/images/aditya_singh_1794562251765.jpg';
-import tanmayYadavImg from '../assets/images/tanmay_yadav_1794562251577.jpg';
-import darshanaTaterImg from '../assets/images/darshana_tater_1794562252295.jpg';
-import gyanJhaImg from '../assets/images/gyan_jha_1794562252669.jpg';
-import sumantSinghImg from '../assets/images/sumant_singh_1794562253291.jpg';
-import harshLegaImg from '../assets/images/harsh_lega_1794562253507.jpg';
-import pranjalBindalImg from '../assets/images/pranjal_bindal_1794562253715.jpg';
-import yuvrajSinghImg from '../assets/images/yuvraj_singh_1794562254475.jpg';
-import musarratKhanamImg from '../assets/images/musarrat_khanam_1794562255156.jpg';
-import aishwaryaJugtawatImg from '../assets/images/aishwarya_jugtawat_1794562255868.jpg';
-import prajjwalSharmaImg from '../assets/images/prajjwal_sharma_1794562255989.jpg';
-import akashJaiswalImg from '../assets/images/akash_jaiswal_1794562258160.jpg';
 
 const ACHIEVER_PORTRAITS: Record<string, string> = {
   'zainab-ali': zainabAliImg,
   'apurva-gupta': apurvaGuptaImg,
   'vibhanshu-shrimali': vibhanshuShrimaliImg,
-  'kevlin-nirwan': kevlinNirwanImg,
-  'suraj-sharma': surajSharmaImg,
-  'aditya-singh': adityaSinghImg,
-  'tanmay-yadav': tanmayYadavImg,
-  'darshana-tater': darshanaTaterImg,
-  'gyan-jha': gyanJhaImg,
-  'sumant-singh': sumantSinghImg,
-  'harsh-lega': harshLegaImg,
-  'pranjal-bindal': pranjalBindalImg,
-  'yuvraj-singh': yuvrajSinghImg,
-  'musarrat-khanam': musarratKhanamImg,
-  'aishwarya-jugtawat': aishwaryaJugtawatImg,
-  'prajjwal-sharma': prajjwalSharmaImg,
-  'akash-jaiswal': akashJaiswalImg,
+  'kevlin-nirwan': `${import.meta.env.BASE_URL}assets/aistudio/Smiling_South_Asian_Doctor_Portrait_a27be68c.png`,
+  'suraj-sharma': `${import.meta.env.BASE_URL}assets/aistudio/Confident_Doctor_Portrait_with_Stethoscope_d595ec8e.png`,
+  'aditya-singh': `${import.meta.env.BASE_URL}assets/aistudio/Professional_Doctor_Portrait_with_Stethoscope_03893a3d.png`,
+  'tanmay-yadav': `${import.meta.env.BASE_URL}assets/aistudio/Friendly_Doctor_Portrait_with_Stethoscope_624491ad.png`,
+  'darshana-tater': `${import.meta.env.BASE_URL}assets/aistudio/Confident_Doctor_Portrait_with_Stethoscope__1__2a156e02.png`,
+  'gyan-jha': `${import.meta.env.BASE_URL}assets/aistudio/Professional_Indian_Doctor_Portrait_550c97f7.png`,
+  'sumant-singh': `${import.meta.env.BASE_URL}assets/aistudio/Friendly_Doctor_Portrait_with_Stethoscope__1__c3bc621a.png`,
+  'harsh-lega': `${import.meta.env.BASE_URL}assets/aistudio/Professional_Doctor_Portrait_with_Stethoscope__1__45d280bf.png`,
+  'pranjal-bindal': `${import.meta.env.BASE_URL}assets/aistudio/Young_Doctor_Portrait_with_Stethoscope_b27de12f.png`,
+  'yuvraj-singh': `${import.meta.env.BASE_URL}assets/aistudio/Approachable_Doctor_in_Purple_and_White_88b0d0f1.png`,
+  'musarrat-khanam': `${import.meta.env.BASE_URL}assets/aistudio/Professional_Doctor_in_Coral_Hijab_b2eb6684.png`,
+  'aishwarya-jugtawat': `${import.meta.env.BASE_URL}assets/aistudio/Professional_Medical_Portrait_with_Stethoscope_c6b577f6.png`,
+  'prajjwal-sharma': `${import.meta.env.BASE_URL}assets/aistudio/Young_Doctor_with_Stethoscope_f24f3d4c.png`,
+  'akash-jaiswal': `${import.meta.env.BASE_URL}assets/aistudio/Smiling_Doctor_Portrait_with_Stethoscope_7f24890e.png`,
 };
 
 function getInitials(name: string): string {
