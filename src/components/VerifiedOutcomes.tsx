@@ -102,14 +102,10 @@ export function VerifiedOutcomes() {
   return (
     <section id="outcomes" className="border-b border-slate-200 bg-white py-16 lg:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-2xl">
-          <h2 className="font-display text-3xl font-bold tracking-tight text-slate-900">
-            Verified Student Outcomes
+        <div className="max-w-3xl">
+          <h2 className="font-display text-3xl font-bold tracking-tight text-slate-900 [text-wrap:balance]">
+            Mentored by Dr. Anshuman Agarwal Sir. Placed in India&apos;s top medical colleges
           </h2>
-          <p className="mt-2 text-sm leading-relaxed text-slate-600 sm:text-base">
-            Past student achievements shared for reference only and are not presented as
-            guaranteed outcomes of the Early Class 12 Live Course.
-          </p>
         </div>
       </div>
 
@@ -118,7 +114,7 @@ export function VerifiedOutcomes() {
         <div
           role="region"
           aria-roledescription="carousel"
-          aria-label="Verified Student Outcomes Auto Carousel"
+          aria-label="Student Achievers Auto Carousel"
           data-testid="outcomes-auto-carousel"
           className="outcomes-marquee-wrapper relative w-full overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 sm:p-5"
         >
